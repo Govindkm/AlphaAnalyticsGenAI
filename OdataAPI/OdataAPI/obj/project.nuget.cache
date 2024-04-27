@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "t8PSRluH8eAUHQw8mUEpOt/HXWuHEQuZLYEb0nwlLSpjlgIjnmlQHM5Jw/VG5zQNPuqKu2tLe42hyHeeBG13yQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GOVIN\\source\\repos\\AlphaAnalyticsGenAI\\OdataAPI\\OdataAPI\\OdataAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.aspnetcore.odata\\8.2.5\\microsoft.aspnetcore.odata.8.2.5.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.odata.core\\7.20.0\\microsoft.odata.core.7.20.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.odata.edm\\7.20.0\\microsoft.odata.edm.7.20.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.odata.modelbuilder\\1.0.9\\microsoft.odata.modelbuilder.1.0.9.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\microsoft.spatial\\7.20.0\\microsoft.spatial.7.20.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\GOVIN\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
