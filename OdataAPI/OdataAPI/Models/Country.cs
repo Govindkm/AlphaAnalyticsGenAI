@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OdataAPI.Models
 {
-    [Table("Countires")]
+    [Table("Countries")]
     public class Country
     {
         [Key]

@@ -19,14 +19,5 @@ namespace OdataAPI.Models
         public int? YearID { get; set; }
 
         public decimal? Value { get; set; }
-
-        // Navigation properties for foreign keys
-        public Country Country { get; set; }
-
-        public Product Product { get; set; }
-
-        public Flow Flow { get; set; }
-
-        public Year Year { get; set; }
     }
 }

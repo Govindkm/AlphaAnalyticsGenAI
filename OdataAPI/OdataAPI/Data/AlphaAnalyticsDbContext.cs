@@ -5,6 +5,8 @@ namespace OdataAPI.Data
 {
     public class AlphaAnalyticsDbContext: DbContext
     {
+        public AlphaAnalyticsDbContext(DbContextOptions options): base(options)
+        { }
         public DbSet<Year> Years { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Flow> Flows { get; set; }
