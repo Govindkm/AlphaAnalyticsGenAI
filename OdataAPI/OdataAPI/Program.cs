@@ -19,11 +19,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AlphaAnalyticsDbContext>(options =>
 {
     var connectionBuilder = new SqlConnectionStringBuilder();
-    connectionBuilder.DataSource = "DESKTOP-6T987U5";
-    connectionBuilder.InitialCatalog = "AlphaAnalytics";
-    connectionBuilder.UserID = "govind";
-    connectionBuilder.Password = "test@123"; 
-    options.UseSqlServer(connectionBuilder.ConnectionString);
+    //connectionBuilder.DataSource = "DESKTOP-6T987U5";
+    //connectionBuilder.InitialCatalog = "AlphaAnalytics";
+    //connectionBuilder.UserID = "govind";
+    //connectionBuilder.Password = "test@123"; 
+    options.UseSqlite("Data Source=.\\Data\\alphaanalytics.db");
 });
 static IEdmModel GetEdmModel()
 {
