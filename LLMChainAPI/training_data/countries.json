@@ -1,0 +1,55 @@
+{
+    "queries": [
+      {
+        "description": "Get all countries",
+        "natural_language": "I want to see the list of all the countries in the system.",
+        "odata_query": "/countries"
+      },
+      {
+        "description": "Get a specific country by ID",
+        "natural_language": "Give me details about country with ID 5.",
+        "odata_query": "/countries?$filter=countryId eq 5"
+      },
+      {
+        "description": "Filter countries by name",
+        "natural_language": "List all countries starting with the letter 'C'.",
+        "odata_query": "/countries?$filter=startswith(countryName, 'C')"
+      },
+      {
+        "description": "Sort countries alphabetically",
+        "natural_language": "Sort the countries by their names.",
+        "odata_query": "/countries?$orderby=countryName"
+      },
+      {
+        "description": "Get a range of countries",
+        "natural_language": "Show me countries from the 3rd to the 7th.",
+        "odata_query": "/countries?$skip=2&$top=5"
+      },
+      {
+        "description": "Count the number of countries",
+        "natural_language": "How many countries are there?",
+        "odata_query": "/countries/$count"
+      },
+      {
+        "description": "Get countries with names containing a specific substring",
+        "natural_language": "Find countries with 'ia' in their names.",
+        "odata_query": "/countries?$filter=contains(countryName, 'ia')"
+      },
+      {
+        "description": "Get countries with IDs in a specific range",
+        "natural_language": "List countries with IDs between 3 and 8.",
+        "odata_query": "/countries?$filter=countryId ge 3 and countryId le 8"
+      },
+      {
+        "description": "Get countries in a specific order and limit the results",
+        "natural_language": "Show me the first 3 countries alphabetically.",
+        "odata_query": "/countries?$orderby=countryName&$top=3"
+      },
+      {
+        "description": "Get countries excluding a specific one",
+        "natural_language": "List all countries except France.",
+        "odata_query": "/countries?$filter=countryName ne 'France'"
+      }
+    ]
+  }
+  
