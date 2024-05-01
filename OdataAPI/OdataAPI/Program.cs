@@ -31,7 +31,7 @@ static IEdmModel GetEdmModel()
     builder.EntitySet<Country>("countries");
     builder.EntitySet<Product>("products");
     builder.EntitySet<Flow>("flows");
-    builder.EntitySet<DataValue>("values");
+    builder.EntitySet<DataValue>("dataValues");
     builder.EntitySet<Year>("years");
     return builder.GetEdmModel();
 }

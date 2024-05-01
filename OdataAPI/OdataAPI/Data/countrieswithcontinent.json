@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Australia",
+    "continent": "Oceania"
+  },
+  {
+    "id": 2,
+    "name": "Austria",
+    "continent": "Europe"
+  },
+  {
+    "id": 3,
+    "name": "Belgium",
+    "continent": "Europe"
+  },
+  {
+    "id": 4,
+    "name": "Canada",
+    "continent": "North America"
+  },
+  {
+    "id": 5,
+    "name": "Chile",
+    "continent": "South America"
+  },
+  {
+    "id": 6,
+    "name": "Czech Republic",
+    "continent": "Europe"
+  },
+  {
+    "id": 7,
+    "name": "Denmark",
+    "continent": "Europe"
+  },
+  {
+    "id": 8,
+    "name": "Estonia",
+    "continent": "Europe"
+  },
+  {
+    "id": 9,
+    "name": "Finland",
+    "continent": "Europe"
+  },
+  {
+    "id": 10,
+    "name": "France",
+    "continent": "Europe"
+  },
+  {
+    "id": 11,
+    "name": "Germany",
+    "continent": "Europe"
+  },
+  {
+    "id": 12,
+    "name": "Greece",
+    "continent": "Europe"
+  },
+  {
+    "id": 13,
+    "name": "Hungary",
+    "continent": "Europe"
+  },
+  {
+    "id": 14,
+    "name": "Iceland",
+    "continent": "Europe"
+  },
+  {
+    "id": 15,
+    "name": "Ireland",
+    "continent": "Europe"
+  },
+  {
+    "id": 16,
+    "name": "Israel",
+    "continent": "Asia"
+  },
+  {
+    "id": 17,
+    "name": "Italy",
+    "continent": "Europe"
+  },
+  {
+    "id": 18,
+    "name": "Japan",
+    "continent": "Asia"
+  },
+  {
+    "id": 19,
+    "name": "South Korea",
+    "continent": "Asia"
+  },
+  {
+    "id": 20,
+    "name": "Latvia",
+    "continent": "Europe"
+  },
+  {
+    "id": 21,
+    "name": "Lithuania",
+    "continent": "Europe"
+  },
+  {
+    "id": 22,
+    "name": "Luxembourg",
+    "continent": "Europe"
+  },
+  {
+    "id": 23,
+    "name": "Mexico",
+    "continent": "North America"
+  },
+  {
+    "id": 24,
+    "name": "Netherlands",
+    "continent": "Europe"
+  },
+  {
+    "id": 25,
+    "name": "Norway",
+    "continent": "Europe"
+  },
+  {
+    "id": 26,
+    "name": "New Zealand",
+    "continent": "Oceania"
+  },
+  {
+    "id": 27,
+    "name": "Poland",
+    "continent": "Europe"
+  },
+  {
+    "id": 28,
+    "name": "Portugal",
+    "continent": "Europe"
+  },
+  {
+    "id": 29,
+    "name": "Slovakia",
+    "continent": "Europe"
+  },
+  {
+    "id": 30,
+    "name": "Slovenia",
+    "continent": "Europe"
+  },
+  {
+    "id": 31,
+    "name": "Spain",
+    "continent": "Europe"
+  },
+  {
+    "id": 32,
+    "name": "Sweden",
+    "continent": "Europe"
+  },
+  {
+    "id": 33,
+    "name": "Switzerland",
+    "continent": "Europe"
+  },
+  {
+    "id": 34,
+    "name": "Turkey",
+    "continent": "Asia"
+  },
+  {
+    "id": 35,
+    "name": "United Kingdom",
+    "continent": "Europe"
+  },
+  {
+    "id": 36,
+    "name": "United States",
+    "continent": "North America"
+  }
+]
