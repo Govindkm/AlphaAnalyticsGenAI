@@ -1,14 +1,8 @@
 import configparser
 from typing import Dict, Union
 import vertexai
-from langchain_community.llms import VertexAI
-from langchain.tools import StructuredTool
-from langchain_community import agent_toolkits
 from vertexai.generative_models import GenerationConfig, GenerativeModel
-from langchain_core.tools import tool
 import requests
-import json
-import time
 from os import path
 
 current_dir = path.dirname(__file__)
@@ -320,45 +314,65 @@ def getProductionValues(input_text: str) -> Union[str | Dict]:
     OData Query: $orderBy=value asc
     
     Example 2
-    User Query: Get data values for country with ID 1.
-    OData Query: $filter=countryID eq 1
-    
-    Example 3
     User Query: Retrieve data values for product with ID 1.
     OData Query: $filter=productID eq 1
     
-    Example 4
-    User Query: Show me data values for flow with ID 1.
-    OData Query: $filter=flowID eq 1
-    
-    Example 5
-    User Query: Fetch data values for year with ID 1.
-    OData Query: $filter=yearID eq 1
-    
-    Example 6
+    Example 3
     User Query: Retrieve data values between ID 1 and ID 5.
     OData Query: $filter=dataValueID ge 1 and dataValueID le 5
     
-    Example 7
+    Example 4
     User Query: Show me data values with value 18029.678.
     OData Query: $filter=value eq 18029.678
     
-    Example 8
+    Example 5
     User Query: Fetch data values for country with ID 1 and product with ID 1.
     OData Query: $filter=countryID eq 1 and productID eq 1
     
-    Example 9
+    Example 6
     User Query: Show me data values for country with ID 1, product with ID 1, and year with ID 1.
     OData Query: $filter=countryID eq 1 and productID eq 1 and yearID eq 1
     
-    Example 10
+    Example 7
     User Query: Retrieve data values with value greater than 500.
     OData Query: $filter=value gt 500
     
-    Example 11
+    Example 8
     User Query: All productions from country with countryId 36 and order by ascending value
     OData Query: $filter=countryID eq 36 and $orderBy=value asc
     
+    Example 9
+    User Query: Get sum of Values by country
+    OData Query: $apply=groupby((CountryID), aggregate(Value with sum as TotalValue))
+    
+    Example 10
+    User Query: Get sum of Values for country id 3
+    Odata Query: $apply=groupby((CountryID), aggregate(Value with sum as TotalValue)) & $filter=CountryID eq 3
+    
+    Example 11
+    User Query: Get sum of values for the product with id 2
+    Odata Query: $apply=groupby((ProductID), aggregate(Value with sum as TotalValue)) & $filter=ProductID eq 2
+    
+    Example 12
+    User Query: Get all the sales made by country United States
+    Odata Query: $expand=product&$filter=tolower(Country/CountryName) eq 'United States'&$orderby=CountryID,ProductID
+    
+    Example 13
+    User Query: Get the sales of the product which Spain sells the most.
+    Odata Query: $apply=filter(tolower(Country/CountryName) eq 'spain')/groupby((ProductID, Product/ProductName, Country/CountryName), aggregate(Value with sum as TotalValue))&$orderby=TotalValue desc&$top=1
+    
+    Example 14
+    User Query: Which products does United States sells.
+    Odata Query: $apply=filter(tolower(Country/CountryName) eq 'united states')/groupby((ProductID, Product/ProductName), aggregate(Value with sum as TotalValue))&$orderby=TotalValue desc
+    
+    Example 15
+    User Query: Give all products total sales yearwise.
+    Odata Query: $apply=groupby((ProductID, YearID, Year/YearValue), aggregate(Value with sum as TotalValue))&$orderby=ProductID asc, YearID asc
+    
+    Example 16
+    User Query: How much sales did United States had in the year 2023?
+    Odata Query: $apply=filter(tolower(Country/CountryName) eq 'united states')/groupby((YearID, Year/YearValue), aggregate(Value with sum as TotalValue))&$filter=Year/YearValue eq 2023&$orderby=YearID asc
+
     Given
     User Query: 
     """

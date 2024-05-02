@@ -19,5 +19,11 @@ namespace OdataAPI.Models
         public int YearID { get; set; }
 
         public float Value { get; set; }
+
+        //Navigation Properties
+        public Country Country { get; set; }
+        public Product Product { get; set; }
+        public Flow Flow { get; set; }
+        public Year Year { get; set; }
     }
 }
