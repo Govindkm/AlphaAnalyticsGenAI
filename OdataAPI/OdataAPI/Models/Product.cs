@@ -10,5 +10,8 @@ namespace OdataAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductId { get; set; }
         public string ProductName { get; set; }
+
+        //Navigation Property
+        public ICollection<DataValue> DataValues { get; set; }
     }
 }

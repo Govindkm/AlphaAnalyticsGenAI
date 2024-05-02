@@ -16,6 +16,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddDbContext<AlphaAnalyticsDbContext>(options =>
 {
     var connectionBuilder = new SqlConnectionStringBuilder();
@@ -45,6 +47,12 @@ builder.Services.AddControllers().AddOData(options => options
        .Expand()
 );
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

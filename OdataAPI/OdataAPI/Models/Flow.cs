@@ -10,5 +10,9 @@ namespace OdataAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int FlowId { get; set; }
         public string FlowName { get; set; }
+
+
+        //Navigation Property
+        public ICollection<DataValue> DataValues { get; set; }
     }
 }

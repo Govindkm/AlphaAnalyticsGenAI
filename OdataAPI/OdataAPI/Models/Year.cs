@@ -10,5 +10,8 @@ namespace OdataAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int YearId { get; set; }
         public int YearValue { get; set; }
+
+        //Navigation Property
+        public ICollection<DataValue> DataValues { get; set; }
     }
 }

@@ -10,5 +10,8 @@ namespace OdataAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CountryId { get; set; }
         public string CountryName { get; set; }
+
+        //Navigation Property
+        public ICollection<DataValue> DataValues { get; set; }
     }
 }
