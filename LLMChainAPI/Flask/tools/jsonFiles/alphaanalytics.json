@@ -1,0 +1,5 @@
+{"Product": {"ProductName": "Crude oil"}, "ProductID": 1, "TotalValue": 168755}
+{"Product": {"ProductName": "Total oil production"}, "ProductID": 10, "TotalValue": 163542}
+{"Product": {"ProductName": "Total oil products production"}, "ProductID": 9, "TotalValue": 129139}
+{"Product": {"ProductName": "Total gas oil production"}, "ProductID": 4, "TotalValue": 58053.19}
+{"Product": {"ProductName": "Middle distillates"}, "ProductID": 11, "TotalValue": 22042}
