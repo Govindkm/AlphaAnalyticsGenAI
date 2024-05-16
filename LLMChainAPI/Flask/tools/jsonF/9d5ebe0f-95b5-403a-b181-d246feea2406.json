@@ -1,0 +1,11 @@
+{"Product": {"ProductName": "Total oil products production"}, "ProductID": 9, "TotalValue": 4704037}
+{"Product": {"ProductName": "Crude oil"}, "ProductID": 1, "TotalValue": 3836811.2}
+{"Product": {"ProductName": "Total oil production"}, "ProductID": 10, "TotalValue": 1891871}
+{"Product": {"ProductName": "Total gas oil production"}, "ProductID": 4, "TotalValue": 1427695.1}
+{"Product": {"ProductName": "Gasoline and diesel"}, "ProductID": 6, "TotalValue": 1348675.8}
+{"Product": {"ProductName": "Other oil products"}, "ProductID": 8, "TotalValue": 404803.16}
+{"Product": {"ProductName": "Middle distillates"}, "ProductID": 11, "TotalValue": 380232.16}
+{"Product": {"ProductName": "Total kerosene production"}, "ProductID": 5, "TotalValue": 347132.53}
+{"Product": {"ProductName": "Naphtha"}, "ProductID": 3, "TotalValue": 261844.62}
+{"Product": {"ProductName": "Liquified Petroleum Gas"}, "ProductID": 2, "TotalValue": 215723.34}
+{"Product": {"ProductName": "Residual fuel oil"}, "ProductID": 7, "TotalValue": 146052.08}

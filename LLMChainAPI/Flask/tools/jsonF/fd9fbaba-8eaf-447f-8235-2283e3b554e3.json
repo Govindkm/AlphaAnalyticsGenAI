@@ -1,0 +1,33 @@
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Crude oil"}, "ProductID": 1, "TotalValue": 3085046}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Crude oil"}, "ProductID": 1, "TotalValue": 376130.3}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Crude oil"}, "ProductID": 1, "TotalValue": 375634.9}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Liquified Petroleum Gas"}, "ProductID": 2, "TotalValue": 198449.73}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Liquified Petroleum Gas"}, "ProductID": 2, "TotalValue": 9346.104}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Liquified Petroleum Gas"}, "ProductID": 2, "TotalValue": 7927.513}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Naphtha"}, "ProductID": 3, "TotalValue": 243110.23}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Naphtha"}, "ProductID": 3, "TotalValue": 9421.153}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Naphtha"}, "ProductID": 3, "TotalValue": 9313.245}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Total gas oil production"}, "ProductID": 4, "TotalValue": 1237099.2}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Total gas oil production"}, "ProductID": 4, "TotalValue": 93448.94}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Total gas oil production"}, "ProductID": 4, "TotalValue": 97146.93}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Total kerosene production"}, "ProductID": 5, "TotalValue": 312834.75}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Total kerosene production"}, "ProductID": 5, "TotalValue": 16612.768}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Total kerosene production"}, "ProductID": 5, "TotalValue": 17685.031}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Gasoline and diesel"}, "ProductID": 6, "TotalValue": 1244947.8}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Gasoline and diesel"}, "ProductID": 6, "TotalValue": 53277.89}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Gasoline and diesel"}, "ProductID": 6, "TotalValue": 50450.023}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Residual fuel oil"}, "ProductID": 7, "TotalValue": 100679.84}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Residual fuel oil"}, "ProductID": 7, "TotalValue": 23765.363}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Residual fuel oil"}, "ProductID": 7, "TotalValue": 21606.865}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Other oil products"}, "ProductID": 8, "TotalValue": 378491.1}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Other oil products"}, "ProductID": 8, "TotalValue": 14239.423}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Other oil products"}, "ProductID": 8, "TotalValue": 12072.625}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Total oil products production"}, "ProductID": 9, "TotalValue": 3991038}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Total oil products production"}, "ProductID": 9, "TotalValue": 358322.88}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Total oil products production"}, "ProductID": 9, "TotalValue": 354676.3}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Total oil production"}, "ProductID": 10, "TotalValue": 961125.75}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Total oil production"}, "ProductID": 10, "TotalValue": 469423.88}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Total oil production"}, "ProductID": 10, "TotalValue": 461321.4}
+{"Year": {"YearValue": 2021}, "YearID": 1, "Product": {"ProductName": "Middle distillates"}, "ProductID": 11, "TotalValue": 188762.38}
+{"Year": {"YearValue": 2022}, "YearID": 2, "Product": {"ProductName": "Middle distillates"}, "ProductID": 11, "TotalValue": 93169.63}
+{"Year": {"YearValue": 2023}, "YearID": 3, "Product": {"ProductName": "Middle distillates"}, "ProductID": 11, "TotalValue": 98300.15}

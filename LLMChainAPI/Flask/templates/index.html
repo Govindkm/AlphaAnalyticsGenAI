@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+       {% block content %}
+       <div class="container">
+          <textarea id="txtinput" placeholder="Please type your query here" style="width: 1024px;height:10vh;" ></textarea>
+          <div><button id="btnsubmit" class="btn btn-primary">Submit</button>
+          <a  class="btn btn-primary" href="https://lookerstudio.google.com/reporting/create?c.reportId=1634c96d-39f5-4975-95c6-99b9a72b0f1d&r.reportName=Top_5_Products_2023&ds.ds0.datasourceName=MyNewReportPOCAPIDataSource&ds.ds0.connector=bigQuery&ds.ds0.type=TABLE&ds.ds0.projectId=a208960-alphaanalytics-sandbox&ds.ds0.datasetId=API_Oil_Production&ds.ds0.tableId=alphaanalytics" title="Visualization" target="_blank">Visualization</a>
+          </div>
+
+       <div class="d-flex p-2">
+        <div id="spinner" class="spinner-border" role="status" style="display:none">
+        </div>
+        <div id="content" class="overflow-auto"><div>
+       </div>
+      </div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js"></script>
+<script type=text/javascript>
+        $(function() {
+          $('#btnsubmit').on('click', function(e) {
+            $('#spinner').show();
+            $('#content').html("");
+           var data=$('#txtinput').val();
+            e.preventDefault()
+            $.post('/loaddata',data,
+                function(data) {
+                $('#spinner').hide();
+                // Parse the response data as markdown
+                var markdown = marked(data["summary"]);
+                // Update the content div with the rendered markdown
+                $('#content').html(markdown);
+            });
+            return false;
+          });
+        });
+</script>
+{% endblock %}

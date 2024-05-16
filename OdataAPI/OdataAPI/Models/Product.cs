@@ -13,5 +13,7 @@ namespace OdataAPI.Models
 
         //Navigation Property
         public ICollection<DataValue> DataValues { get; set; }
+
+
     }
 }
